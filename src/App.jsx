@@ -1,6 +1,8 @@
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import About from "./components/about";
+import Technologies from "./components/technologies";
+import Projects from "./components/projects";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
@@ -11,6 +13,8 @@ const App = () => {
         <Navbar/>
         <Hero/>
         <About/>
+        <Technologies/>
+        <Projects/>
       </div>
     </div>
   )
