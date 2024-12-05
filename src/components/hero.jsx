@@ -8,7 +8,7 @@ const hero = () => {
             <div className="flex clex-col items-center lg:items-start">
                 <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">Naveen Sandaru</h1>
             </div>
-            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Full Stack Developer</span>
+            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Full Stack Developer</span>
             <p className="my-2 max-2-xl py-6 font-light tracking-tighter text-justify">{HERO_CONTENT}</p>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
