@@ -7,7 +7,7 @@ const contacts = () => {
         whileInView={{y:0,opacity:1}}
         initial={{y:-50,opacity:0}}
         transition={{duaration: 2, delay:0}}
-        className="my-10 text-center text-4xl">Gen in Touch</motion.h1>
+        className="my-10 text-center text-4xl">Get in Touch</motion.h1>
         <div className="text-center tracking-tighter">
             <motion.a href="mailto:naveensandaru2@gmail.com" 
             whileInView={{opacity:1}}
