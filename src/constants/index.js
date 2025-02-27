@@ -1,64 +1,48 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web, mobile and windows applications. I have honed my skills in front-end technologies like React, Flutter and Next.js, as well as back-end technologies like Node.js, PHP, SpringBoot, MySQL, Firebase, and MongoDB. Additionally, I have developed and published games and apps with Google Admob ads integrated to the Google Play Store. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web, mobile and windows applications. I have honed my skills in front-end technologies like React, Flutter and Next.js, as well as back-end technologies like Node.js, PHP, SpringBoot, MySQL, PostgreSQL Firebase, and MongoDB. Additionally, I have developed and published games and apps with Google Admob ads integrated to the Google Play Store. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web, mobile and windows applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and MongoDB. My journey in software development began with a deep curiosity for how things work, and it has evolved into a phase where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
-
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web, mobile and windows applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, Firebase and MongoDB. My journey in software development began with a deep curiosity for how things work, and it has evolved into a phase where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
 
 export const PROJECTS = [
   {
-    title: "Platform To Share Hidden Tourist Attractions",
+    title: "CINEC Shuttle Services system",
     image: project1,
     description:
-      "A fully functional platform (website) with features like location sharing, and user registration.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      "A system that allows users to track shuttles, get a digital shuttle pass and to verify their pass by scanning a QR code.",
+    technologies: ["React", "SpringBoot", "Firebase"],
   },
   {
-    title: "Music Player App",
+    title: "CRM system",
     image: project2,
     description:
-      "An application to play music by fethcing them from the phone storage, with features such as play, pause, play next, play previous and seek. This app is released to Google Play Store",
-    technologies: ["Flutter"],
+      "A CRM system developed for a well known academy in Sri Lanka. The system allows role based login, management of lead statuses, and the ability to get an overview of perfomance of employees.",
+    technologies: ["NextJS", "NodeJS", "PostgreSQL"],
   },
   {
-    title: "Portfolio Website",
+    title: "Fullstack website for a Pastry business",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind-CSS"],
+      "A website for a well known pastry franchise in Sri Lanka. The website allows Oauth authorization, browse items and add to cart and order them. The admin can add, delete and edit items and view orders as well.",
+    technologies: ["NextJS", "NodeJS", "PostgreSQL"],
+  },
+  {
+    title: "EduCraft",
+    image: project4,
+    description:
+      "A mobile application to manage tuituion classes. The student can view their class schedules and scan QR code to mark their attendances. The teacher can view, add, edit and delete students.",
+    technologies: ["Flutter", "NodeJS", "Firebase"],
+  },
+  {
+    title: "Portfolio website",
+    image: project5,
+    description:
+      "A simple but appealing portfolio website",
+    technologies: ["React"],
   },
 ];
 

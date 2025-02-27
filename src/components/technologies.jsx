@@ -2,6 +2,7 @@ import { RiReactjsLine } from "react-icons/ri"
 import { RiFlutterFill } from "react-icons/ri"
 import { SiMongodb } from "react-icons/si"
 import { GrMysql } from "react-icons/gr"
+import { DiPostgresql } from "react-icons/di"
 import { RiFireFill } from "react-icons/ri"
 import { SiSpringboot } from "react-icons/si"
 import { FaPhp } from "react-icons/fa"
@@ -86,6 +87,13 @@ const technologies = () => {
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4" title="MySQL">
             <GrMysql className="text-7xl text-blue-600"/>
+        </motion.div>
+        <motion.div 
+        variants={iconVariant(1.4)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4" title="PostgreSQL">
+            <DiPostgresql className="text-7xl text-blue-900"/>
         </motion.div>
         <motion.div 
         variants={iconVariant(2.4)}
